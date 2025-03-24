@@ -1,0 +1,424 @@
+{
+   "entries": {"resourceKind": [
+      {
+         "resourceKindKey": "SRM Site",
+         "internalId": "resourceKind:id:1_::_",
+         "adapterKindKey": "SrmAdapter"
+      },
+      {
+         "resourceKindKey": "SRM World",
+         "internalId": "resourceKind:id:0_::_",
+         "adapterKindKey": "SrmAdapter"
+      }
+   ]},
+   "dashboards": [{
+      "shared": false,
+      "temporary": false,
+      "hidden": false,
+      "creationTime": 1730748332112,
+      "autoswitchEnabled": false,
+      "importAttempts": 0,
+      "lastUpdateUserId": "709ec0af-7b2e-40e4-8166-37bf236fac0f",
+      "columnProportion": "1-1",
+      "importComplete": true,
+      "description": "",
+      "columnCount": 1,
+      "widgets": [
+         {
+            "collapsed": false,
+            "id": "84628008-224a-4227-b5c7-86d5adf809d4",
+            "gridsterCoords": {
+               "w": 2,
+               "x": 1,
+               "h": 4,
+               "y": 1
+            },
+            "type": "ResourceList",
+            "title": "SRM World",
+            "config": {
+               "refreshInterval": 300,
+               "resource": [],
+               "refreshContent": {"refreshContent": false},
+               "relationshipMode": {"relationshipMode": 0},
+               "title": "SRM World",
+               "additionalColumns": [],
+               "mode": "all",
+               "filterMode": "tagPicker",
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "bus": [],
+                     "adapterKind": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "maintenanceSchedule": [],
+                     "adapterInstance": [],
+                     "collector": [],
+                     "tier": [],
+                     "state": [],
+                     "tag": [],
+                     "day": [],
+                     "status": []
+                  }
+               },
+               "depth": 1,
+               "customFilter": {
+                  "filter": [],
+                  "excludedResources": null,
+                  "includedResources": null
+               },
+               "selectFirstRow": {"selectFirstRow": true},
+               "selfProvider": {"selfProvider": false}
+            },
+            "height": 210,
+            "states": [
+               {
+                  "value": "b%3A0",
+                  "key": "perm_toolbarVisible_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_84628008-224a-4227-b5c7-86d5adf809d4"
+               },
+               {
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100",
+                  "key": "permResGrid_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_84628008-224a-4227-b5c7-86d5adf809d4"
+               }
+            ]
+         },
+         {
+            "collapsed": false,
+            "id": "de733bf5-5695-4c2f-bed8-1d5b6cebb782",
+            "gridsterCoords": {
+               "w": 10,
+               "x": 3,
+               "h": 4,
+               "y": 1
+            },
+            "type": "ResourceList",
+            "title": "Sites",
+            "config": {
+               "refreshInterval": 300,
+               "resource": [],
+               "refreshContent": {"refreshContent": false},
+               "relationshipMode": {"relationshipMode": -1},
+               "title": "Sites",
+               "additionalColumns": [
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Build number",
+                     "metricKey": "Metrics|build",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Cost Unit",
+                     "metricKey": "Metrics|costUnit",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Is Pair Site Connected",
+                     "metricKey": "Metrics|PairSiteConnected",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Days to expire",
+                     "metricKey": "Metrics|expiryDays",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Edition Key",
+                     "metricKey": "Metrics|editionKey",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Name",
+                     "metricKey": "Metrics|Name",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Number of Array Managers",
+                     "metricKey": "Metrics|AMs",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Number of Protection Groups",
+                     "metricKey": "Metrics|Groups",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Number of Recovery Plans",
+                     "metricKey": "Metrics|Plans",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Number of Recovery Virtual Machines",
+                     "metricKey": "Metrics|Recovery Virtual Machines Count",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Pair Name",
+                     "metricKey": "Metrics|PairName",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Pair VC Address",
+                     "metricKey": "Metrics|PairVCAddress",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Paired",
+                     "metricKey": "Metrics|Paired",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Product Name",
+                     "metricKey": "Metrics|productName",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Product Version",
+                     "metricKey": "Metrics|productVersion",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|These VM(s) are part of one or more protection group(s), but they are not included in any recovery plan(s).",
+                     "metricKey": "Metrics|UnprotectedVms",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|VC Address",
+                     "metricKey": "Metrics|VC Address",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Version",
+                     "metricKey": "Metrics|version",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Units currently used in this asset",
+                     "metricKey": "Metrics|usedLicenseUnits",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricName": "Metrics|Total capacity of the license",
+                     "metricKey": "Metrics|totalLicenseCapacity",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  }
+               ],
+               "mode": "all",
+               "filterMode": "tagPicker",
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "bus": [],
+                     "adapterKind": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "maintenanceSchedule": [],
+                     "adapterInstance": [],
+                     "collector": [],
+                     "tier": [],
+                     "state": [],
+                     "tag": [],
+                     "day": [],
+                     "status": []
+                  }
+               },
+               "depth": 1,
+               "customFilter": {
+                  "filter": [],
+                  "excludedResources": null,
+                  "includedResources": null
+               },
+               "selectFirstRow": {"selectFirstRow": true},
+               "selfProvider": {"selfProvider": false}
+            },
+            "height": 210,
+            "states": [{
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A86%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A227%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A211%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A142%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A132%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A167%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A150%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A145%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A195%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A208%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A192%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A252%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A105%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A241%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A84%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A266%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A623%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A241%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A224%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100",
+               "key": "permResGrid_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_de733bf5-5695-4c2f-bed8-1d5b6cebb782"
+            }]
+         },
+         {
+            "collapsed": false,
+            "id": "6506e68a-1dbe-48e2-b902-0413f4a3abae",
+            "gridsterCoords": {
+               "w": 4,
+               "x": 1,
+               "h": 6,
+               "y": 5
+            },
+            "type": "View",
+            "title": "recovery plans",
+            "config": {
+               "refreshInterval": 300,
+               "resource": null,
+               "traversalSpecId": "",
+               "refreshContent": {"refreshContent": false},
+               "isUpdatedView": true,
+               "chartViewItems": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "title": "recovery plans",
+               "viewDefinitionId": "8d1ef36e-85d1-4bfd-bab3-4bde6166f05f"
+            },
+            "height": 324,
+            "states": [{
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_6506e68a-1dbe-48e2-b902-0413f4a3abae-column-0%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A68%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_6506e68a-1dbe-48e2-b902-0413f4a3abae-column-Details%2525257CRPFolder1%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_6506e68a-1dbe-48e2-b902-0413f4a3abae-column-Details%2525257CRPName2%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A164%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_6506e68a-1dbe-48e2-b902-0413f4a3abae-column-Details%2525257CRPStatus3%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A198",
+               "key": "permTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_6506e68a-1dbe-48e2-b902-0413f4a3abae"
+            }]
+         },
+         {
+            "collapsed": false,
+            "id": "fe14c04a-f115-48e8-823a-f2a990981a2f",
+            "gridsterCoords": {
+               "w": 4,
+               "x": 5,
+               "h": 6,
+               "y": 5
+            },
+            "type": "View",
+            "title": "protections groups",
+            "config": {
+               "refreshInterval": 300,
+               "resource": null,
+               "traversalSpecId": "",
+               "refreshContent": {"refreshContent": true},
+               "isUpdatedView": true,
+               "chartViewItems": [],
+               "selectFirstRow": {"selectFirstRow": true},
+               "selfProvider": {"selfProvider": false},
+               "title": "protections groups",
+               "viewDefinitionId": "311a1219-b84d-4bcb-9a8c-7f0691ce9ffb"
+            },
+            "height": 324,
+            "states": [
+               {
+                  "value": "b%3A0",
+                  "key": "perm_isDashboardTime_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_fe14c04a-f115-48e8-823a-f2a990981a2f"
+               },
+               {
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_fe14c04a-f115-48e8-823a-f2a990981a2f-column-0%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_fe14c04a-f115-48e8-823a-f2a990981a2f-column-Details%2525257CNumber%25252520of%25252520Virtual%25252520Machines1%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_fe14c04a-f115-48e8-823a-f2a990981a2f-column-Details%2525257CPart%25252520of%25252520Recovery%25252520Plan2%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_fe14c04a-f115-48e8-823a-f2a990981a2f-column-Details%2525257CPGFolder3%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_fe14c04a-f115-48e8-823a-f2a990981a2f-column-Details%2525257CPGName4%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_fe14c04a-f115-48e8-823a-f2a990981a2f-column-Details%2525257CPGStatus5%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_fe14c04a-f115-48e8-823a-f2a990981a2f-column-Details%2525257CPGType6%25255Ehidden%25253Db%2525253A0",
+                  "key": "permTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_fe14c04a-f115-48e8-823a-f2a990981a2f"
+               }
+            ]
+         },
+         {
+            "collapsed": false,
+            "id": "a0bcc920-399e-4a66-9eae-c4114255c462",
+            "gridsterCoords": {
+               "w": 4,
+               "x": 9,
+               "h": 6,
+               "y": 5
+            },
+            "type": "View",
+            "title": "protected vms",
+            "config": {
+               "refreshInterval": 300,
+               "resource": null,
+               "traversalSpecId": "",
+               "refreshContent": {"refreshContent": false},
+               "isUpdatedView": true,
+               "chartViewItems": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "title": "protected vms",
+               "viewDefinitionId": "74da8ab4-74cd-4437-952b-d1cab6d889f9"
+            },
+            "height": 324,
+            "states": [
+               {
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_a0bcc920-399e-4a66-9eae-c4114255c462-column-0%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_a0bcc920-399e-4a66-9eae-c4114255c462-column-Details%2525257CVMErrors1%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_a0bcc920-399e-4a66-9eae-c4114255c462-column-Details%2525257CVMName2%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_a0bcc920-399e-4a66-9eae-c4114255c462-column-Details%2525257CPlaceholderVMError3%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_a0bcc920-399e-4a66-9eae-c4114255c462-column-Details%2525257CPlaceholderVMNeedsRepair4%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A206%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_a0bcc920-399e-4a66-9eae-c4114255c462-column-Details%2525257CProtectionStatus5%25255Ehidden%25253Db%2525253A0",
+                  "key": "permTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_a0bcc920-399e-4a66-9eae-c4114255c462"
+               },
+               {
+                  "value": "b%3A0",
+                  "key": "perm_isDashboardTime_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_a0bcc920-399e-4a66-9eae-c4114255c462"
+               }
+            ]
+         },
+         {
+            "collapsed": false,
+            "id": "334ed570-377d-4b34-9aab-f0c1f56a0f64",
+            "gridsterCoords": {
+               "w": 4,
+               "x": 1,
+               "h": 6,
+               "y": 11
+            },
+            "type": "View",
+            "title": "Recovery VMs",
+            "config": {
+               "refreshInterval": 300,
+               "resource": null,
+               "traversalSpecId": "",
+               "refreshContent": {"refreshContent": false},
+               "isUpdatedView": true,
+               "chartViewItems": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "title": "Recovery VMs",
+               "viewDefinitionId": "721624d7-0c33-4e53-a04d-45e8dfe3358b"
+            },
+            "height": 324,
+            "states": [{
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253ApermTableView_widget_a55b31e9-2fda-4bd3-a441-e7a009d37a76_334ed570-377d-4b34-9aab-f0c1f56a0f64-column-0%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_a55b31e9-2fda-4bd3-a441-e7a009d37a76_334ed570-377d-4b34-9aab-f0c1f56a0f64-column-Details%2525257CRecoveryStatus1%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253ApermTableView_widget_a55b31e9-2fda-4bd3-a441-e7a009d37a76_334ed570-377d-4b34-9aab-f0c1f56a0f64-column-Details%2525257CVMName2%25255Ehidden%25253Db%2525253A0",
+               "key": "permTableView_widget_44b8ed7e-9403-4d4a-90c1-0957865fe831_334ed570-377d-4b34-9aab-f0c1f56a0f64"
+            }]
+         }
+      ],
+      "userId": "709ec0af-7b2e-40e4-8166-37bf236fac0f",
+      "states": [],
+      "homeTab": false,
+      "name": "ADP - SRM Dash",
+      "gridsterMaxColumns": 12,
+      "rank": 0,
+      "disabled": false,
+      "id": "44b8ed7e-9403-4d4a-90c1-0957865fe831",
+      "locked": false,
+      "dashboardNavigations": {},
+      "widgetInteractions": [
+         {
+            "widgetIdProvider": "84628008-224a-4227-b5c7-86d5adf809d4",
+            "type": "resourceId",
+            "widgetIdReceiver": "6506e68a-1dbe-48e2-b902-0413f4a3abae"
+         },
+         {
+            "widgetIdProvider": "de733bf5-5695-4c2f-bed8-1d5b6cebb782",
+            "type": "resourceId",
+            "widgetIdReceiver": "fe14c04a-f115-48e8-823a-f2a990981a2f"
+         },
+         {
+            "widgetIdProvider": "fe14c04a-f115-48e8-823a-f2a990981a2f",
+            "type": "resourceId",
+            "widgetIdReceiver": "a0bcc920-399e-4a66-9eae-c4114255c462"
+         },
+         {
+            "widgetIdProvider": "de733bf5-5695-4c2f-bed8-1d5b6cebb782",
+            "type": "resourceId",
+            "widgetIdReceiver": "334ed570-377d-4b34-9aab-f0c1f56a0f64"
+         }
+      ],
+      "lastUpdateTime": 1731020994374
+   }],
+   "uuid": "d633c371-3bb8-4554-af16-8652dc5b615a"
+}

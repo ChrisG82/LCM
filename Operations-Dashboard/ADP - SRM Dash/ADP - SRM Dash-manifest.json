@@ -1,0 +1,36 @@
+{
+  "contentName": "ADP - SRM Dash",
+  "id": "44b8ed7e-9403-4d4a-90c1-0957865fe831",
+  "owner": "admin",
+  "contentType": "Operations-Dashboard",
+  "descendents":   [
+        {
+      "contentName": "ADP - Recovery Virtual Machines",
+      "id": "721624d7-0c33-4e53-a04d-45e8dfe3358b",
+      "contentType": "Operations-View",
+      "keyValues": {},
+      "descendents": []
+    },
+        {
+      "contentName": "ADP - Recovery Plans",
+      "id": "8d1ef36e-85d1-4bfd-bab3-4bde6166f05f",
+      "contentType": "Operations-View",
+      "keyValues": {},
+      "descendents": []
+    },
+        {
+      "contentName": "ADP - Protected VMs",
+      "id": "74da8ab4-74cd-4437-952b-d1cab6d889f9",
+      "contentType": "Operations-View",
+      "keyValues": {},
+      "descendents": []
+    },
+        {
+      "contentName": "ADP - Protection Groups",
+      "id": "311a1219-b84d-4bcb-9a8c-7f0691ce9ffb",
+      "contentType": "Operations-View",
+      "keyValues": {},
+      "descendents": []
+    }
+  ]
+}

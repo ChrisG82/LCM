@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Content>
+        
+    <Views>
+                
+        <ViewDef id="8d1ef36e-85d1-4bfd-bab3-4bde6166f05f">
+                        
+            <Title>ADP - Recovery Plans</Title>
+                        
+            <Description/>
+                        
+            <SubjectType adapterKind="SrmAdapter" resourceKind="Recovery Plans" type="descendant"/>
+                        
+            <SubjectType adapterKind="SrmAdapter" resourceKind="Recovery Plans" type="self"/>
+                        
+            <Usage>dashboard</Usage>
+                        
+            <Usage>report</Usage>
+                        
+            <Usage>details</Usage>
+                        
+            <Usage>content</Usage>
+                        
+            <Controls>
+                                
+                <Control id="time-interval-selector_id_8" type="time-interval-selector" visible="false">
+                                        
+                    <Property name="advancedTimeMode" value="false"/>
+                                        
+                    <Property name="unit" value="DAYS"/>
+                                        
+                    <Property name="count" value="7"/>
+                                    
+                </Control>
+                                
+                <Control id="attributes-selector_id_9" type="attributes-selector" visible="false">
+                                        
+                    <Property name="attributeInfos">
+                                                
+                        <List>
+                                                        
+                            <Item>
+                                
+                                <Value>
+                                        
+                                    <Property name="objectType" value="RESOURCE"/>
+                                        
+                                    <Property name="attributeKey" value="Details|RPFolder"/>
+                                        
+                                    <Property name="isStringAttribute" value="true"/>
+                                        
+                                    <Property name="adapterKind" value="SrmAdapter"/>
+                                        
+                                    <Property name="resourceKind" value="Recovery Plans"/>
+                                        
+                                    <Property name="rollUpCount" value="0"/>
+                                        
+                                    <Property name="transformations">
+                                                
+                                        <List>
+                                                        
+                                            <Item value="CURRENT"/>
+                                                    
+                                        </List>
+                                            
+                                    </Property>
+                                        
+                                    <Property name="isProperty" value="false"/>
+                                        
+                                    <Property name="addTimestampAsColumn" value="false"/>
+                                        
+                                    <Property name="isShowRelativeTimestamp" value="false"/>
+                                    
+                                </Value>
+                                                            
+                            </Item>
+                                                        
+                            <Item>
+                                
+                                <Value>
+                                        
+                                    <Property name="objectType" value="RESOURCE"/>
+                                        
+                                    <Property name="attributeKey" value="Details|RPName"/>
+                                        
+                                    <Property name="isStringAttribute" value="true"/>
+                                        
+                                    <Property name="adapterKind" value="SrmAdapter"/>
+                                        
+                                    <Property name="resourceKind" value="Recovery Plans"/>
+                                        
+                                    <Property name="rollUpCount" value="0"/>
+                                        
+                                    <Property name="transformations">
+                                                
+                                        <List>
+                                                        
+                                            <Item value="CURRENT"/>
+                                                    
+                                        </List>
+                                            
+                                    </Property>
+                                        
+                                    <Property name="isProperty" value="false"/>
+                                        
+                                    <Property name="addTimestampAsColumn" value="false"/>
+                                        
+                                    <Property name="isShowRelativeTimestamp" value="false"/>
+                                    
+                                </Value>
+                                                            
+                            </Item>
+                                                        
+                            <Item>
+                                
+                                <Value>
+                                        
+                                    <Property name="objectType" value="RESOURCE"/>
+                                        
+                                    <Property name="attributeKey" value="Details|RPStatus"/>
+                                        
+                                    <Property name="isStringAttribute" value="true"/>
+                                        
+                                    <Property name="adapterKind" value="SrmAdapter"/>
+                                        
+                                    <Property name="resourceKind" value="Recovery Plans"/>
+                                        
+                                    <Property name="rollUpCount" value="0"/>
+                                        
+                                    <Property name="transformations">
+                                                
+                                        <List>
+                                                        
+                                            <Item value="CURRENT"/>
+                                                    
+                                        </List>
+                                            
+                                    </Property>
+                                        
+                                    <Property name="isProperty" value="false"/>
+                                        
+                                    <Property name="addTimestampAsColumn" value="false"/>
+                                        
+                                    <Property name="isShowRelativeTimestamp" value="false"/>
+                                    
+                                </Value>
+                                                            
+                            </Item>
+                                                    
+                        </List>
+                                            
+                    </Property>
+                                    
+                </Control>
+                                
+                <Control id="pagination-control_id_10" type="pagination-control" visible="true">
+                                        
+                    <Property name="start" value="0"/>
+                                        
+                    <Property name="size" value="50"/>
+                                    
+                </Control>
+                                
+                <Control id="metadata_id_11" type="metadata" visible="false">
+                                        
+                    <Property name="maxPointsCount" value="5000"/>
+                                        
+                    <Property name="hideObjectNameColumn" value="false"/>
+                                        
+                    <Property name="listTopResultSize" value="-1"/>
+                                    
+                </Control>
+                            
+            </Controls>
+                        
+            <DataProviders>
+                                
+                <DataProvider dataType="list-view" id="list-view_id_7"/>
+                            
+            </DataProviders>
+                        
+            <Presentation type="list"/>
+                    
+        </ViewDef>
+            
+    </Views>
+    
+</Content>
